@@ -3,8 +3,5 @@ description: Computational Linguistics
 theme: just-the-docs
 
 url: "https://lihan829.github.io"
-baseurl: "/QC_LCD151"
+baseurl: "/26F_QC_LCD151"
 
-aux_links:
-  GitHub Repository:
-    - "https://github.com/lihan829/QC_LCD151"
