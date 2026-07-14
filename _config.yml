@@ -1,8 +1,10 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: LCD 151
+description: Computational Linguistics
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: "https://lihan829.github.io"
+baseurl: "/QC_LCD151"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  GitHub Repository:
+    - "https://github.com/lihan829/QC_LCD151"
