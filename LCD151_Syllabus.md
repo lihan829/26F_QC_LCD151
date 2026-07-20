@@ -1,9 +1,8 @@
 ---
-title: "Syllabus"
+title: Syllabus
 layout: default
 nav_order: 2
-------
-
+---
 
 # LCD151: Methods in Computational Linguistics I
 
