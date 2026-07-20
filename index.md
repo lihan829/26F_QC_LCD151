@@ -3,33 +3,74 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# QC Computational Linguistics Course
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Materials, assignments, and code for the Computational Linguistics course at Queens College (CUNY).
 
-More specifically, the created site:
+## Repository Structure
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+```
+.
+├── lectures/          # Lecture slides and notes
+├── assignments/       # Homework and programming assignments
+├── labs/              # In-class coding exercises
+├── datasets/          # Sample datasets
+├── notebooks/         # Jupyter notebooks
+├── solutions/         # Example solutions (if released)
+└── README.md
+```
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## Topics
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+- Python for Computational Linguistics
+- Text preprocessing
+- Regular expressions
+- Tokenization
+- Morphology
+- N-gram language models
+- Part-of-speech tagging
+- Parsing
+- Vector representations
+- Neural language models
+- Large Language Models (LLMs)
 
-To get started with creating a site, simply:
+## Requirements
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+- Python 3.10+
+- Jupyter Notebook or Google Colab
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+Common packages:
 
-----
+```bash
+pip install numpy pandas matplotlib nltk spacy scikit-learn jupyter
+```
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+Depending on the course, additional libraries such as `transformers`, `torch`, or `datasets` may also be required.
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<username>/<repository>.git
+cd <repository>
+```
+
+Launch Jupyter:
+
+```bash
+jupyter notebook
+```
+
+or open the notebooks directly in Google Colab.
+
+## Resources
+
+- Python: https://docs.python.org/3/
+- NLTK: https://www.nltk.org/
+- spaCy: https://spacy.io/
+- Hugging Face: https://huggingface.co/
+
+## License
+
+This repository is intended for educational purposes. Please do not redistribute course materials without permission.
