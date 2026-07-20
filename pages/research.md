@@ -1,7 +1,7 @@
 ---
 title: Research
 layout: default
-nav_order: 2
+nav_order: 6
 last_modified_date: 2026-07-08
 ---
 
